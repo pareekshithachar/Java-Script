@@ -1,0 +1,13 @@
+// write your code here
+var bgimg= new SimpleImage("palm-and-beach.png")
+var fgimg= new SimpleImage("drewRobert.png")
+bgimg.setSize(fgimg.getWidth(), fgimg.getHeight())
+for(var px of fgimg.values()){
+    if(px.getGreen()>px.getBlue()+px.getRed(){
+        var x=px.getX();
+        var y=px.getY();
+        img= bgimg.getPixel(x,y);
+        fgimg.setPixel(x,y,img);
+    }
+}
+print(fgimg);

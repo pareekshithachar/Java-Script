@@ -1,0 +1,9 @@
+function sum(x,y,z){
+    return x+y+z;
+}
+print(sum(10,20,20));
+
+function add(x,y){
+    return x+y;
+}
+print(add('a','b'));
